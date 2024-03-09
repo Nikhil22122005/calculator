@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.digit:hover{
+    cursor:pointer;
+    background-color: rgb(152, 151, 151);
+}
+#ans:hover{
+    cursor:pointer;
+    background-color: rgb(152, 151, 151);
+}
+
+#C:hover{
+    cursor:pointer;
+    background-color: rgb(152, 151, 151);
+}
+
+#DEL:hover{
+    cursor:pointer;
+    background-color: rgb(152, 151, 151);
+}
+
+.digit{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    font-size: 2rem;
+    height: 60px;
+    width: 90px;
+    margin: 10px;
+    background-color: rgb(60, 59, 59);
+    color: white;
+}
+
+#C , #ans{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    font-size: 2rem;
+    height: 60px;
+    width: 90px;
+    margin: 10px;
+    background-color: rgb(60, 59, 59);
+    color: white;
+}
+
+
+
+
+
+#DEL{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    font-size: 2rem;
+    height: 60px;
+    width: 90px;
+    margin: 10px;
+    background-color: rgb(60, 59, 59);
+    color: white;
+}
+
+
+h1{
+    background: linear-gradient( 90deg , rgb(255, 0, 230) , rgb(255, 255, 255) , rgb(255, 2, 74) );
+    -webkit-background-clip: text;
+    background-clip:text;
+    color: transparent;
+}
+
+.heading{
+    display:flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 2rem;
+}
+
+.cal{
+    padding-top: 20px;
+    
+}
+
+
+
+.btn{
+    height: 30px;
+    width: 50px;
+    background-color: red;
+}
+
+.anstext{
+    display: flex;
+    justify-content: center;
+    margin:10px
+}
+
+#ansbox{
+    background-color: rgb(194, 239, 255);
+    font-size: 6rem;
+    height: 90px;
+    width: 430px;
+    text-align: right;
+    
+}
+
+#ansbox::placeholder{
+    color: black;
+
+}
+
+
+
+
+
+
